@@ -7,7 +7,7 @@ import openpyxl
 # Page Configuration
 st.set_page_config(page_title="Makro 32",layout="wide")
 
-data = pd.read_excel('data/indikator32.xlsx')
+data = pd.read_excel('indikator32.xlsx')
 df = pd.DataFrame(data)
 df['Tahun'] = df['Tahun'].astype(str)
 
