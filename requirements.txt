@@ -1,5 +1,6 @@
 streamlit
-streamlit.components.v1
+streamlit.components.iframe
+streamlit.components.html
 pandas
 pygwalker
 openpyxl
